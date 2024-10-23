@@ -1,0 +1,21 @@
+id: REPLACE_WITH_ID_FIELD_FROM_YAML_FILE
+tests:
+  - sample: "{'account_id': 'bf8d8cc9', 'message_id':
+      '04599959-3cbc-4843-83d6-f9105efd9e63', 'account_ref': '', 'client_ref':
+      '1|04599959-3cbc-4843-83d6-f9105efd9e63|1726744692878|eu-central-1',
+      'direction': 'outbound', 'from': '918050290593', 'to': '916363625107',
+      'forced_from': '918050290593', 'network': '405862', 'network_name':
+      'Reliance Jio Infocomm Limited - Karnataka', 'country': 'IN',
+      'country_name': 'India', 'date_received': '2024-09-19T11:18:13+00:00',
+      'date_finalized': '2024-09-19T11:18:15+00:00', 'latency': '2052',
+      'status': 'delivered', 'error_code': '0', 'error_code_description':
+      'Delivered', 'currency': 'EUR', 'total_price': '0.07268000', 'id':
+      '04599959-3cbc-4843-83d6-f9105efd9e63', 'dcs': '0', 'validity_period':
+      '240920121812900+', 'ip_address': '49.249.95.150', 'changed_from': '',
+      'udh': ''}"
+    result: null
+
+# The `result` field should be left blank to start. Once you submit your log asset files with
+# your integration pull-request in a Datadog GitHub repository, Datadog's validations will
+# run your raw logs against your pipeline and return the result. If the result output in the
+# validation is accurate, take the output and add it to the `result` field in your test YAML file.
